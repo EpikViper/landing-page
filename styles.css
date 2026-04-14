@@ -1,0 +1,146 @@
+body {
+    font-family: Roboto, 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #1F2937;
+    size: 200px;
+    gap: 200px;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start ;
+    color: #E5E7EB;
+}
+
+
+.first img {
+    height: 200px;
+    width: auto;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first ul {
+    list-style: none;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 100px;
+}
+
+.rh, .lh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lh {
+    margin-left: 100px;
+    gap: 70px;
+}
+
+.rh {
+    margin-right: 100px;
+    gap: 20px;
+}
+
+
+.ph {
+    height: auto;
+    width: auto;
+    margin-bottom: 50px;
+    scale: 80%;
+}
+
+.text {
+    display: flex;
+    color: #F9FAF8;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text strong {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+button {
+    border-radius: 10px;
+    width: 130px;
+    height: 35px;
+    font-size: 16px;
+    color: #F9FAF8;
+    background-color: #3882F6; 
+    border-color: #F9FAF8;
+}
+
+.primary {
+    background-color: #3882F6; 
+    border-color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third {
+    background-color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    align-items: center;
+    border-radius: 5px;
+    margin: 100px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 75px;
+    color: #F9FAF8;
+}
+
+.cta strong {
+    font-size: 20px;
+}
