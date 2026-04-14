@@ -33,6 +33,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .first ul {
@@ -144,4 +145,34 @@ button {
 
 .cta strong {
     font-size: 20px;
+}
+
+.second {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 500px;
+    padding-right: 500px;
+    gap: 0px;
+}
+
+
+#quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    width: 500px;
+    font-style: italic;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#author {
+    font-weight: 700;
+    display: flex;
+    align-self: flex-end;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin: 0;
 }
